@@ -66,7 +66,7 @@ header{
 	transition: all 0.3s linear;
 	left: 33px;
 }
-.menu .menu-item::after{
+/* .menu .menu-item::after{
 	content: '\f105';
 	font-family: fontAwesome;
 	font-size: 12px;
@@ -76,7 +76,7 @@ header{
 	transition: var(--transition4);
 	color: var(--white);
 	
-}
+} */
 .menu .menu-item:hover::after{
 	rotate:90deg;
 	color: var(--secondery);
@@ -1153,6 +1153,7 @@ header{
 	height: 70px;
 	background-color: black;
 	opacity: 0.3;
+	z-index: 5;
 }
 								/* FOOTER END */
 
